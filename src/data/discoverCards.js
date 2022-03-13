@@ -1,0 +1,120 @@
+import cardPlaceholder from '../assets/images/card-placeholder.png';
+import dayjs from 'dayjs';
+
+const discoverCards = [
+  {
+    id: '1',
+    price: 245,
+    likes: 27,
+    creator: 'DenzelWashington',
+    image: cardPlaceholder,
+    title: 'Nike Air Jordan 1 OG',
+    onBid: true,
+    endTime: dayjs().add(5, 'days').toDate(),
+    info: {
+      label: 'last bid',
+      value: '999',
+    },
+  },
+  {
+    id: '2',
+    price: 245,
+    likes: 0,
+    creator: 'DenzelWashington',
+    image: cardPlaceholder,
+    title: 'Nike Air Jordan 1 OG',
+    onSale: true,
+    info: {
+      label: 'Highest Offer',
+      value: '999',
+    },
+  },
+  {
+    id: '3',
+    price: 245,
+    likes: 27,
+    creator: 'DenzelWashington',
+    image: cardPlaceholder,
+    title: 'Nike Air Jordan 1 OG',
+    onBid: true,
+    info: {
+      label: 'last bid',
+      value: '999',
+    },
+  },
+  {
+    id: '4',
+    price: 245,
+    likes: 0,
+    creator: 'DenzelWashington',
+    image: cardPlaceholder,
+    title: 'Nike Air Jordan 1 OG',
+    onSale: true,
+    info: {
+      label: 'Highest Offer',
+      value: '999',
+    },
+  },
+  {
+    id: '5',
+    price: 245,
+    likes: 27,
+    creator: 'DenzelWashington',
+    image: cardPlaceholder,
+    title: 'Nike Air Jordan 1 OG',
+    onBid: true,
+    endTime: dayjs().add(5, 'days').toDate(),
+  },
+  {
+    id: '6',
+    price: 245,
+    likes: 0,
+    creator: 'DenzelWashington',
+    image: cardPlaceholder,
+    title: 'Nike Air Jordan 1 OG',
+  },
+  {
+    id: '7',
+    price: 245,
+    likes: 27,
+    creator: 'DenzelWashington',
+    image: cardPlaceholder,
+    title: 'Nike Air Jordan 1 OG',
+    onBid: true,
+    endTime: dayjs().add(5, 'days').toDate(),
+    info: {
+      label: 'last bid',
+      value: '999',
+    },
+  },
+  {
+    id: '8',
+    price: 245,
+    likes: 0,
+    creator: 'DenzelWashington',
+    image: cardPlaceholder,
+    title: 'Nike Air Jordan 1 OG',
+    onBid: true,
+    endTime: dayjs().add(5, 'days').toDate(),
+    info: {
+      label: 'last bid',
+      value: '999',
+    },
+  },
+  {
+    id: '9',
+    price: 245,
+    likes: 0,
+    creator: 'DenzelWashington',
+    image: cardPlaceholder,
+    title: 'Nike Air Jordan 1 OG',
+    onBid: true,
+    endTime: dayjs().add(5, 'days').toDate(),
+    info: {
+      label: 'last bid',
+      value: '999',
+    },
+  },
+];
+
+export default discoverCards;

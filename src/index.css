@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.ql-container {
+  @apply !border-0;
+}
+
+.ql-editor {
+  @apply text-sm leading-6 text-gray-800 border-0 before:!not-italic before:font-inter before:text-gray-800 before:text-sm before:leading-6 font-inter;
+}
+
+.ql-toolbar {
+  @apply !border-0 !border-t;
+}
+
+.ql-hidden {
+  @apply hidden;
+}
+@font-face {
+  font-family: MADE Outer Sans ;
+  src: url(./assets//fonts/MADE\ Outer\ Sans\ Alt\ Black.otf);
+}
+@font-face {
+  font-family: MADE Outer Sans Bold;
+  src: url(./assets//fonts/madeOuterSansBold.otf);
+}
+@layer utilities {
+  /* this scroll on scroll thin */
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: #e6e6e6;
+    border-radius: 4px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background: #cacaca;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb:active {
+    background: #cacaca;
+  }
+
+  .scrollbar-thiner::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+  .scrollbar-thiner::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .scrollbar-thiner::-webkit-scrollbar-thumb {
+    background: #e6e6e6;
+    border-radius: 4px;
+  }
+  .scrollbar-thiner::-webkit-scrollbar-thumb:hover {
+    background: #cacaca;
+  }
+  .scrollbar-thiner::-webkit-scrollbar-thumb:active {
+    background: #cacaca;
+  }
+}
+
+@layer base {
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+}

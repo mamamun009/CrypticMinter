@@ -1,0 +1,53 @@
+.search_result_heading {
+  font-family: MADE Outer Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #777e91;
+  height: 16px;
+}
+.divider {
+  width: 100%;
+  top: 20.67%;
+  bottom: 78.72%;
+  border-top: 1px solid #e6e8ec;
+}
+.view_all_btn {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px 20px 0px;
+}
+.view_all_btn > button {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #3772ff;
+  cursor: pointer;
+}
+.search_box_m_Footer {
+  display: flex;
+  justify-content: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #777e91;
+}
+.mini_p_style {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #777e90;
+  display: flex;
+  justify-content: center;
+}
