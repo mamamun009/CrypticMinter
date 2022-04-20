@@ -26,7 +26,7 @@ const AppRoutes = () => {
         <Route path="/" element={<Landing />} />
         <Route path="/create-single" element={<CreateSingle />} />
         <Route path="/create-multiple" element={<CreateMultiple />} />
-        {/* <Route path="/overview" element={<Overview />} />
+        <Route path="/overview" element={<Overview />} />
         <Route path="/view-item/:id" element={<ViewItem />} />
         <Route path="/view-item" element={<ViewItem />} />
         <Route path="/edit-single" element={<EditSingle />} />
@@ -40,7 +40,7 @@ const AppRoutes = () => {
         <Route path="/connect-wallet" element={<ConnectWallet />} />
         <Route path="/escrow" element={<Escrow />} />
         <Route path="/escrow-canceled" element={<EscrowCanceled />} />
-        <Route path="/escrow-concluded" element={<EscrowConcluded />} /> */}
+        <Route path="/escrow-concluded" element={<EscrowConcluded />} />
       </Routes>
     </Suspense>
   );
