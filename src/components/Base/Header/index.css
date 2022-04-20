@@ -1,5 +1,5 @@
 .header_main_conatiner {
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   z-index: 999;
 }
